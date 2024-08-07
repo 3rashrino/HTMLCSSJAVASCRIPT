@@ -1,0 +1,61 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: auto;
+    padding: auto;
+    background-color: lightgreen; /* Light background for the entire page */
+}
+
+header {
+    background-color:orange; /* Vibrant purple header */
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px;
+    background-color: white; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    border-radius:10px
+}
+
+article h2 {
+    color: darkgray; 
+}
+
+article p {
+    color: gray; 
+    line-height: 1.6; 
+}
+
+footer {
+    background-color: orange; 
+    text-align: center;
+    padding:40px;
+}
+a{
+    color:white;
+}
